@@ -38,7 +38,17 @@ body{
   .seccion3{
   
   }
-  
+ .proyectos .subtitulos{
+   color: #f2f2f2;
+    }   
+.proyectos img {
+  width: 20%;
+  border-radius: 100%;
+}
+.proyectos{
+  background-color: #FF8787;
+  padding: 30px 0;
+}
   
   .pro{
     font-weight: bold;
