@@ -1,7 +1,9 @@
 
+
+
 body{
     margin: 0;
-  
+
     text-align: center;
     font-family: 'Merriweather Sans', sans-serif;
   }
@@ -23,6 +25,7 @@ body{
     font-family: 'Montserrat', sans-serif;
   }
   .subtitulos{
+    margin: 80px 0;
     color: #FF8787;
     font-weight: bold;
   }
@@ -30,77 +33,76 @@ body{
     background-color: #FF8787;
     position: relative;
     padding-top: 100px;
-  
+
   }
-  .seccion2{
-  
-  }
+
   .seccion3{
-  
+
   }
- .proyectos .subtitulos{
-   color: #f2f2f2;
-    }   
+
 .proyectos img {
   width: 20%;
   border-radius: 100%;
 }
-.proyectos{
-  background-color: #FF8787;
-  padding: 30px 0;
+.proyectos img:hover{
+  transform: rotate(10deg);
+  transition: 0.4s;
 }
-  
+
+.boton-pasar{
+  background-color: #FA5858;
+}
   .pro{
     font-weight: bold;
     color: #FA5858;
   }
   .montania{
     margin-bottom: 0;
-  
+
   }
   .nube-superior{
     position: absolute;
     left: 300px;
     bottom: 300px;
-  
+
   }
   .nube-inferior{
     position: absolute;
     right: 300px;
     top: 50px;
-  
+
   }
   .img-perfil{
     width: 50%;
-  
+
   }
   .img-skills-1{
     width: 25%;
     display: inline-block;
     float: left;
     margin-right: 30px;
-  
+
   }
   .img-skills-2{
     width: 25%;
     display: inline-block;
     float: right;
     margin-left: 30px;
-  
+
   }
-  
+
   .skill-row{
-  
+
   }
   .skills{
     width:50%;
-    margin: 100px auto 150px auto;
+    margin: 100px auto 0 auto;
     text-align: left;
     line-height: 2;
   }
   .profile{
     width: 30%;
-    margin: 100px auto 100px auto;
+    margin: 100px auto 0 auto;
   }
   hr{
     border-style: none;
@@ -109,7 +111,7 @@ body{
     width: 3%;
     border-color: #E9DAC1;
   }
-  
+
   button {
     margin: 30px auto 30px auto;
   font-size: 17px;
@@ -118,7 +120,7 @@ body{
   border-radius: 0.75em;
   background: #000000;
   }
-  
+
   .button_top {
   display: block;
   box-sizing: border-box;
@@ -130,17 +132,17 @@ body{
   transform: translateY(-0.2em);
   transition: transform 0.1s ease;
   }
-  
+
   button:hover .button_top {
    /* Pull the button upwards when hovered */
   transform: translateY(-0.33em);
   }
-  
+
   button:active .button_top {
    /* Push the button downwards when pressed */
   transform: translateY(0);
   }
-  
+
   a{
     text-decoration: none;
   }
@@ -148,7 +150,7 @@ body{
     width: 2%;
     margin: 20px 10px 0px 10px;
   }
-  
+
   .seccion3{
     background-color: #FF8787;
     padding:  20px 0 15px 0;
@@ -192,7 +194,7 @@ body{
 
     }
     .img-perfil{
-        width: 80%;
+        width: 60%;
     }
     .subtitulos{
         font-size: 3rem;
@@ -203,25 +205,28 @@ body{
     h3{
         font-size: 2rem;
     }
+    .proyectos img{
+      width: 60%;
+    }
 
     .img-skills-1{
         width: 75%;
         float: none;
         margin: 0;
-        
-      
+
+
       }
       .img-skills-2{
         width: 75%;
         float: none;
         margin: 0;
-      
+
       }
 
       .skills{
         width: 75%;
         text-align: center;
-        
+
       }
       .contact-me{
         width: 75%;
@@ -230,9 +235,9 @@ body{
       }
 
       .seccion3{
-     
+
         padding:  40px 0 35px 0;
-        
+
       }
       .redes-img{
         width: 8%;
