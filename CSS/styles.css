@@ -1,6 +1,5 @@
 
 
-
 body{
     margin: 0;
 
@@ -41,12 +40,23 @@ body{
   }
 
 .proyectos img {
-  width: 20%;
-  border-radius: 100%;
+  width: 300px;
+  height: 300px;
+  border-radius: 20%;
+  -webkit-border-radius: 20%;
+  -moz-border-radius: 20%;
+  -ms-border-radius: 20%;
+  -o-border-radius: 20%;
+  transition:transform 0.4s ease;
+  -webkit-transition:transform 0.4s ease;
+  -moz-transition:transform 0.4s ease;
+  -ms-transition:transform 0.4s ease;
+  -o-transition:transform 0.4s ease;
+  margin: 30px auto;
 }
 .proyectos img:hover{
   transform: rotate(10deg);
-  transition: 0.4s;
+  
 }
 
 .boton-pasar{
@@ -206,13 +216,14 @@ body{
         font-size: 2rem;
     }
     .proyectos img{
-      width: 60%;
+      width: 220px;
+      height: 220px;
     }
-
+ 
     .img-skills-1{
         width: 75%;
         float: none;
-        margin: 0;
+        right: 0;
 
 
       }
