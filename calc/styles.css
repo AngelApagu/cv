@@ -1,0 +1,129 @@
+:root{
+    --color-primario: #9DC08B;
+    --color-secundario: #609966;
+    --color-terciario: #0E8388;
+    --color-cuaternario: #40513B;
+
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#EDF1D6;
+    height: 100vh;
+    font-weight: bold;
+}
+h1{
+    font-size: 12px;
+    font-family: 'Press Start 2P', cursive;
+    position: absolute;
+    right: 2px;
+    bottom: 0;
+    color: #fff;
+}
+h2{
+    font-size: 10px;
+    font-family: 'Press Start 2P', cursive;
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    color: #fff;
+}
+.contenedor-btns{
+    width: 84%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pantalla{
+    width: 200px;
+    height: 100px;
+    text-align: right;
+    background-color: var(--color-cuaternario);
+    position: sticky;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+
+.calculadora{
+    width: 320px;
+    background-color: var(--color-primario);
+    border-radius: 30%;
+
+    padding: 50px;
+}
+
+.numero{
+    background-color: var(--color-secundario);
+    margin: 6px;
+    width: 26%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8%;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color .3s ease ;
+    color: #EDF1D6;
+}
+.igual{
+    background-color: var(--color-secundario);
+    margin: 6px;
+    width: 26%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8%;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color .3s ease ;
+    color: #EDF1D6;
+    transition: background-color .3s ease ;
+}
+.igual:hover{
+    background-color: #40513B;
+}
+.delete{
+    background-color: var(--color-secundario);
+    margin: 6px;
+    width: 26%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color .3s ease ;
+    color: #EDF1D6;
+    
+}
+.delete:hover{
+    background-color: #40513B;  
+}
+
+.numero:hover{
+    background-color: #40513B;
+
+}
+.operador{
+    width: 92%;
+    background-color: #E96479;
+    margin: 6px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color .3s ease ;
+    color: #EDF1D6;
+}
+.operador:hover{
+    background-color: #FD8A8A;
+}
+
+@media (max-width: 575px) {
+    .operador{
+        width: 43%;
+    }
+    }

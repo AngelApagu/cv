@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+
+        <!--GOOGLE Fonts-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat:wght@400;700;900&family=Pacifico&family=Press+Start+2P&family=Ubuntu&display=swap" rel="stylesheet">
+    <!--CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <!--Font awesome-->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <script src="https://kit.fontawesome.com/b94e606d65.js" crossorigin="anonymous"></script>
+
+    <!--Bootsrap scripts-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- CONTENEDOR PRINCIPAL -->
+    <div class="calculadora">
+        <div class="row">
+            <div class="pantalla col-lg-12 col-md-12 col-sm-12">
+                <h1 class="contenido"></h1>
+                <h2 class="operador-pantalla"></h2>
+            </div>
+        </div>
+        <div class="contenedor-btns row">
+            <div class="numeros col-lg-8 col-md-8 col-sm-8">
+                <div class="row fila-num-1">
+                    <div class="1 numero col-lg-4 col-md-4 col-sm-4">1</div>
+                    <div class="2 numero col-lg-4 col-md-4 col-sm-4">2</div>
+                    <div class="3 numero col-lg-4 col-md-4 col-sm-4">3</div>
+                </div>
+                <div class="row fila-num-2">
+                    <div class="4 numero col-lg-4 col-md-4 col-sm-4">4</div>
+                    <div class="5 numero col-lg-4 col-md-4 col-sm-4">5</div>
+                    <div class="6 numero col-lg-4 col-md-4 col-sm-4">6</div>
+                </div>
+                <div class="row fila-num-3">
+                    <div class="7 numero col-lg-4 col-md-4 col-sm-4">7</div>
+                    <div class="8 numero col-lg-4 col-md-4 col-sm-4">8</div>
+                    <div class="9 numero col-lg-4 col-md-4 col-sm-4">9</div>
+                </div>
+                <div class="row fila-num-4">
+                    <div class="0 numero  col-lg-4 col-md-4 col-sm-4">0</div>
+                    <div class="igual  col-lg-4 col-md-4 col-sm-4">=</div>
+                    <div class="delete  col-lg-4 col-md-4 col-sm-4"><i class="delete-btn fa-solid fa-delete-left"></i></div>
+                </div>
+            </div>
+            <div class="numeros col-lg-4 col-md-4 col-sm-4">
+                <div class="row fila-operadores">
+                    <div class="suma operador col-lg-12 col-md-12 col-sm-3">+</div>
+                    <div class="resta operador col-lg-12 col-md-12 col-sm-3">-</div>
+                    <div class="producto operador col-lg-12 col-md-12 col-sm-3">x</div>
+                    <div class="division operador col-lg-12 col-md-12 col-sm-3">/</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- SCRIPTSSSSSSS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script> 
+    <script src="index.js"></script> 
+</body>
+</html>
